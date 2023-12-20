@@ -1,0 +1,80 @@
+/* SvgAnimation.css */
+
+/* Base styles */
+.svg-animation-container {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.svg-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 1s, transform 1s;
+}
+.svg-item img {
+    width: 350px;
+        height: 350px;
+}
+
+.svg-item:nth-child(1) {
+    animation: slideInLeft 1s ease-out 1s forwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.content_product {
+    text-align: center;
+    opacity: 1;
+    transition: opacity 1s;
+    margin: 2rem;
+    padding-left: 2rem;
+    text-align: justify;
+    
+}
+
+/* Add a fade-out animation for .content_product */
+.fade-out {
+    opacity: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+
+    /* Adjust styles for screens with a maximum width of 768 pixels */
+    .svg-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .svg-item {
+        transform: translateY(-100px);
+        /* Adjust for smaller screens */
+    }
+}
