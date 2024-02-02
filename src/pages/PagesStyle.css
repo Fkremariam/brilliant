@@ -1,20 +1,19 @@
 
 .logo_and-aboutUs{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-between; 
+   
 }
-.home-aboutUs pre{
+.home-aboutUs {
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px ; 
+    margin-left: 15rem;
+    
 }
 .home-aboutUs h1{
     color: rgb(25, 115, 194);
 }
 .logo-aside-aboutUs{
-    margin-left: 20rem;
-    overflow: hidden;
+    margin-left: 15rem;
 }
 .Containe_WhatWeDo{
     margin: 0;
@@ -48,7 +47,7 @@ section {
     align-items: center;
 }
 .countup{
-    background-color: rgb(24, 11, 61);
+    background-color: rgb(67, 36, 150);
     padding: 80px;
     color: white;
 }
@@ -58,6 +57,20 @@ section {
     display: flex;
     font-size: 60px;
     display: inline;
+}
+.about_us{
+    margin: 20px;
+}
+.about_us h2 {
+    text-align: center;
+    font-size: 36px;
+}
+.about_us p{
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 auto;
+        /* Allow text to wrap within the specified width */
+    width: 30%;
 }
 .countup_list img{
     display: flex;
@@ -79,10 +92,13 @@ section {
 .Why_choose_us{
     margin: 5rem;
     padding-left: 7rem;
-    display: flex;
     flex: auto;
     justify-content: space-between;
 
+}
+.Why_choose_us h1 {
+    text-align: center;
+    font-weight: bold;
 }
 .why_choose_img{
     display: flex;
@@ -116,6 +132,7 @@ section {
     align-items: center;
     padding: 10px;
     background-image: url('../asset/lockBg.jpg');
+    
 }
 .why_img1 img{
     padding-left: 2rem;
@@ -141,6 +158,7 @@ font-weight: bold;
     padding: 10px;
     background-image: url('../asset/lockBg.jpg');
 }
+
 .why_img2 img {
     padding-left: 2rem;
 }
@@ -202,14 +220,23 @@ transition: .3s;
     /* justify-content: space-between;
      */
 }
+@media screen and (max-width: 760px) {
+    .home-aboutUs {
+            display: initial;
+        }
+}
 @media screen and (max-width: 550px) {
     .countup h1 {
         margin: 3rem;
         display: flex;
     }
-    .logo-aside-aboutUs {
-        margin-left: 0rem;
+
+    .home-aboutUs{
+    display: initial;
+        padding: 0;
+        margin: 0;
     }
+   
     .Card_listes {
             
         flex-direction: column;

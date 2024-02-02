@@ -1,17 +1,22 @@
+import co3 from "./asset/co3.jpg"
+import co2 from "./asset/co2.jpg"
+import co4 from "./asset/co4.jpg"
+import co5 from "./asset/co5.jpg"
 export const sliderData = [
   {
-    image: "https://i.ibb.co/58Mq6Mb/slide1.jpg",
-    heading: "Slide One",
-    desc: "This is the description of slide one Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+    image: co2,
+    heading: "Your trusted network partner ! ",
   },
   {
-    image: "https://i.ibb.co/8gwwd4Q/slide2.jpg",
-    heading: "Slide Two",
-    desc: "This is the description of slide two Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+    image: co3,
+    heading: "Cutting-edge Networking solution!",
   },
   {
-    image: "https://i.ibb.co/8r7WYJh/slide3.jpg",
-    heading: "Slide Three",
-    desc: "This is the description of slide three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi quos quas, voluptatum nesciunt illum exercitationem.",
+    image: co4,
+    heading: "Reliable and Secure performance!",
+  },
+   {
+    image: co5,
+    heading: "Enhance your Digital connectivity with us!",
   },
 ];

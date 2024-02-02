@@ -65,11 +65,11 @@ const CompanyInfo = () => {
           <h2>Company Information</h2>
           <p style={addressStyle}>
             <FontAwesomeIcon icon={faMapMarkerAlt} style={iconStyle} />
-            123 Main Street, Cityville, Country
+            Addis ababa, 22Mazoria, Hanan K Plaza, office #804
           </p>
           <p style={phoneNumberStyle}>
             <FontAwesomeIcon icon={faPhone} style={iconStyle} />
-            Phone: +1 (555) 123-4567
+            Phone: 	+251 96 023 1629/ +251989651175 
           </p>
           <p style={emailStyle}>
             <FontAwesomeIcon icon={faEnvelope} style={iconStyle} />

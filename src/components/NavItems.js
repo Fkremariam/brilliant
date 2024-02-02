@@ -23,31 +23,49 @@ export const navItems = [
     path: "./contactus",
     cName: "nav-item",
   },
+   {
+    id: 5,
+    title: "About Us",
+    path: "./aboutus",
+    cName: "nav-item",
+  },
 ];
 
 export const serviceDropdown = [
   {
     id: 1,
-    title: "Marketing",
-    path: "./marketing",
+    title: "NETWORKING",
+    path: "./NETWORKING",
     cName: "submenu-item",
   },
   {
     id: 2,
-    title: "Consulting",
-    path: "./consulting",
+    title: "SMART CLASS ROOM",
+    path: "./SMART CLASS ROOM",
     cName: "submenu-item",
   },
   {
     id: 3,
-    title: "Design",
-    path: "./design",
+    title: "DATA CENTER SETUP",
+    path: "./DATA CENTER SETUP",
     cName: "submenu-item",
   },
   {
     id: 4,
-    title: "Development",
-    path: "./development",
+    title: "NETWORK MANAGEMENT",
+    path: "./NETWORK MANAGEMENT",
+    cName: "submenu-item",
+  },
+  {
+    id: 5,
+    title: "SAFETY / SECURITY",
+    path: "./SAFETY / SECURITY",
+    cName: "submenu-item",
+  },
+  {
+    id: 6,
+    title: "FIRE ALARM SYSTEM",
+    path: "./FIRE ALARM SYSTEM",
     cName: "submenu-item",
   },
 ];

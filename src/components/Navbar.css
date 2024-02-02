@@ -8,14 +8,14 @@
     overflow: hidden;
 }
 
-.navbar-logo {
+/* .navbar-logo {
     color: #000000;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-}
+} */
 
 .fa-firstdraft {
     margin-left: 0.5rem;
@@ -65,6 +65,8 @@
 }
 
 @media screen and (max-width: 960px) {
+   
+   
     .NavbarItems {
         
         position: absolute;
@@ -104,12 +106,7 @@
         border-radius: 0;
     }
 
-    .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%, 50%);
-    }
+    
 
     .menu-icon {
         display: block;
@@ -148,4 +145,9 @@
     button {
         display: none;
     }
+}
+@media screen and (max-width: 550px) {
+    .logo{
+        padding-bottom: 50px;
+        width: 50px;}
 }

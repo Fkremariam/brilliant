@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Consulting from "./pages/Consulting";
+import AboutUs from "./pages/AboutUs.jsx";
 import Contact from "./pages/ForContact.jsx";
 import Design from "./pages/Design";
 import Development from "./pages/Developments";
@@ -30,7 +30,7 @@ function App() {
           <Route path="/marketing" element={<Marketing/>}></Route>
           <Route path="/development" element={<Development/>}></Route>
           <Route path="/design" element={<Design/>}></Route>
-          <Route path="/consulting" element={<Consulting/>}></Route>
+          <Route path="/aboutus" element={<AboutUs/>}></Route>
         </Routes>
         <Footer/>
       </BrowserRouter>

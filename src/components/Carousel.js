@@ -4,6 +4,10 @@ import { sliderData } from "../slider-data";
 import "./Carousel.scss";
 
 const Carousel = () => {
+  const mystile ={
+    fontSize:'80px',
+    width:'1000px',
+  }
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
 
@@ -50,10 +54,7 @@ const Carousel = () => {
               <div>
                 <img src={slide.image} alt="slide" className="image" />
                 <div className="content">
-                  <h2>{slide.heading}</h2>
-                  <p>{slide.desc}</p>
-                  <hr />
-                  <button className="--btn --btn-primary">Get Started</button>
+                  <h1 style={mystile}>{slide.heading}</h1>
                 </div>
               </div>
             )}
