@@ -1,9 +1,9 @@
 import React from "react";
-
+import NetworkingInstalleation from "./DropdwomLists/NetworkingInstalleation"
 function Services() {
   return (
     <div>
-      <h1 className="services">Services</h1>
+      <NetworkingInstalleation/>
     </div>
   );
 }

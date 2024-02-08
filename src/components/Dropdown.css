@@ -1,5 +1,5 @@
 .services-submenu {
-    width: 10rem;
+    width: 20rem;
     position: absolute;
     top: 67px;
     list-style: none;
@@ -10,7 +10,7 @@
 }
 
 .services-submenu li {
-    background: rgb(50, 122, 255);
+    background: rgb(67, 36, 150);
     cursor: pointer;
 }
 

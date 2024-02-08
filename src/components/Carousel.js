@@ -5,7 +5,7 @@ import "./Carousel.scss";
 
 const Carousel = () => {
   const mystile ={
-    fontSize:'80px',
+    fontSize:'50px',
     width:'1000px',
   }
   const [currentSlide, setCurrentSlide] = useState(0);

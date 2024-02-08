@@ -34,38 +34,68 @@ export const navItems = [
 export const serviceDropdown = [
   {
     id: 1,
-    title: "NETWORKING",
-    path: "./NETWORKING",
+    title: "Network installation",
+    path: "./NetworkingInstalleation",
     cName: "submenu-item",
   },
   {
     id: 2,
-    title: "SMART CLASS ROOM",
-    path: "./SMART CLASS ROOM",
+    title: "Network support",
+    path: "./networkSupport",
     cName: "submenu-item",
   },
   {
     id: 3,
-    title: "DATA CENTER SETUP",
-    path: "./DATA CENTER SETUP",
+    title: "Security solutions",
+    path: "./SecuritySolutions",
     cName: "submenu-item",
   },
   {
     id: 4,
-    title: "NETWORK MANAGEMENT",
-    path: "./NETWORK MANAGEMENT",
+    title: "Cloud services",
+    path: "./CloudServices",
     cName: "submenu-item",
   },
   {
     id: 5,
-    title: "SAFETY / SECURITY",
-    path: "./SAFETY / SECURITY",
+    title: "DataCenterSetup ",
+    path: "./DataCenterSetup",
     cName: "submenu-item",
   },
   {
     id: 6,
-    title: "FIRE ALARM SYSTEM",
-    path: "./FIRE ALARM SYSTEM",
+    title: "Network Management",
+    path: "./networkMangement",
     cName: "submenu-item",
   },
+  {
+    id: 7,
+    title: "CCTV SURVEILLANCE SYSTEM",
+    path: "./CCTVSS",
+    cName: "submenu-item",
+  },
+  {
+    id: 8,
+    title: "RFID & FINGER PRINT ACCESS CONTROL SYSTEM",
+    path: "./RFID",
+    cName: "submenu-item",
+  },
+  {
+    id: 9,
+    title: "FIRE ALARM SYSTEM",
+    path: "./FireAlarmSystem",
+    cName: "submenu-item",
+  },
+  {
+    id:10,
+    title:"AUDIO / VISUAL",
+    path: "AudioViusal",
+    cName : "submenu-item"
+  },
+  {
+    id:10,
+    title:"Smart Class Room",
+    path: "SmartClassRoom",
+    cName : "submenu-item"
+  }
 ];

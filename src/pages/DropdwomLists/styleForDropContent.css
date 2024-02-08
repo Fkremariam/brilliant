@@ -1,0 +1,16 @@
+.about_us {
+    margin: 20px;
+}
+
+.about_us {
+    text-align: center;
+    font-size: 36px;
+}
+
+.about_us p {
+    font-size: 18px;
+    text-align: justify;
+    margin: 0 auto;
+    /* Allow text to wrap within the specified width */
+    width: 30%;
+}
