@@ -109,7 +109,7 @@ import ScrollTrigger from 'react-scroll-trigger';
             <div className='section_padding'>
         <div className='logo_and-aboutUs'>
             
-            <div className='logo-aside-aboutUs'><img src={ddac} width={500} alt=''/></div>
+            <div className='logo-aside-aboutUs'><img src={ddac} width={400} alt=''/></div>
             <div className='home-aboutUs'>
                 <h2>About us</h2>
                 <h1>Brilliant Hi Tec Solution</h1>
@@ -142,26 +142,30 @@ We look forward to the opportunity to serve you and contribute to your success.
         
         <div className='countup'>
             <div className='countup_img'>
-                <img src={happy} width={150}/>
-                <img src={exprince} width={250}/>
-                <img src={project} width={250}/>
-                <img src={partner} width={150}/>
+                
+                
+                
+                
             </div>
             <ScrollTrigger className='countup_list' onEnter={()=> setCounteron(true)} onExit={()=> setCounteron(false)}> 
+                <img src={happy} width={100}/>
                 <h3>Happy clients </h3>
                 <h1>
                     {counterOn && < CountUp start={0} end={60} duration={2} delay={0}/>}+    
                 </h1>
+                <img src={exprince} width={150}/>
                <h3>Done projects </h3>
                 <h1>
                     {counterOn && < CountUp start={0} end={60} duration={2} delay={0}/>}+
                                    
                 </h1>
+                <img src={project} width={150}/>
                  <h3>Year of experience  </h3>
                 <h1>
                     {counterOn && < CountUp start={0} end={5} duration={2} delay={0}/>}+ 
                                  
                 </h1>
+                <img src={partner} width={100}/>
                 <h3>Partners</h3> 
                 <h1>
                     {counterOn && < CountUp start={0} end={15} duration={2} delay={0}/>}+
@@ -189,11 +193,11 @@ We look forward to the opportunity to serve you and contribute to your success.
                         
                         <h3>Seamless integration</h3>
                     </div>
-                    <div className='why_img3'>
+                    <div className='why_img4'>
                        
                         <h3>Proven track record</h3>
                     </div>
-                    <div className='why_img3'>
+                    <div className='why_img5'>
                         
                         <h3>Cost-effectiveness</h3>
                     </div>

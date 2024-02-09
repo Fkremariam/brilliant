@@ -148,6 +148,7 @@
 }
 @media screen and (max-width: 550px) {
     .logo{
-        padding-bottom: 50px;
-        width: 50px;}
+        /* padding-bottom: 50px; */
+        /* width: 50px; */
+    margin: 0px;};
 }

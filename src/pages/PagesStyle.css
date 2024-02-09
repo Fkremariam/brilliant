@@ -110,7 +110,7 @@ section {
     
 }
 .why_choose_img h3{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .why_img1{
     
@@ -131,7 +131,8 @@ section {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-image: url('../asset/lockBg.jpg');
+    
+    background-image: url('../asset/reliability.jpg');
     
 }
 .why_img1 img{
@@ -156,7 +157,7 @@ font-weight: bold;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-image: url('../asset/lockBg.jpg');
+    background-image: url('../asset/adva.jpg');
 }
 
 .why_img2 img {
@@ -180,10 +181,60 @@ font-weight: bold;
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-image: url('../asset/lockBg.jpg');
+    background-image: url('../asset/sm.jpg');
 
 }
 .why_img3 img {
+    padding-left: 2rem;
+}
+.why_img4 {
+    font-weight: bold;
+
+    top: 50%;
+    left: 50%;
+
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 20vh;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url('../asset/whpvr.jpg');
+
+}
+
+.why_img4 img {
+    padding-left: 2rem;
+}
+.why_img5 {
+    font-weight: bold;
+
+    top: 50%;
+    left: 50%;
+
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 20vh;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url('../asset/costE.jpg');
+
+}
+
+.why_img5 img {
     padding-left: 2rem;
 }
 .Our_client h1{
@@ -230,7 +281,30 @@ transition: .3s;
         margin: 3rem;
         display: flex;
     }
+        .Why_choose_us{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+                .logo_and-aboutUs {
+                    display: flex;
+                
+                    flex-direction: column;
+        
+                }
+                .logo-aside-aboutUs{
+                    padding-top: 0px;
+                    margin: 0px;
 
+                }
+.countup_list{
+    display: flex;
+    flex-direction: column;
+}
+.countup_list img{
+    display: flex;
+    flex-direction: column;
+}
     .home-aboutUs{
     display: initial;
         padding: 0;
