@@ -9,7 +9,14 @@ import webapp from '../asset/webapp.png';
 import cloud from '../asset/cloud.png';
 import security from '../asset/secutity.png'
 import network from '../asset/network_infrastructure.jpg';
-import server from '../asset/server.png'
+import server from '../asset/icons/smartClassIcon (1).png';
+import DataCenter from '../asset/icons/dataCenter.png';
+import Audio from "../asset/icons/AUDIOVISUAL (1).png"
+import CCTv from "../asset/icons/cCTVSURVEILLANCESYSTEM (1).png"
+import FireA from "../asset/icons/FIREALARMSYSTEM.png"
+import NetMan from "../asset/icons/networkMang.png"
+import finger from "../asset/icons/RFID&FINGERPRINTACCESSCONTROLSYSTEM. (1).png"
+
 import exprince from '../asset/expriance.png';
 import happy from '../asset/happyc.png';
 import partner from '../asset/partener.png';
@@ -33,17 +40,17 @@ import ScrollTrigger from 'react-scroll-trigger';
         {
             image:w,
             pargraph:"I wanted to take a moment to express my sincere gratitude for the exceptional work of brilliant hi tec, Your commitment to delivering a clean and efficient networking service has greatly benefited our organization."
-            ,title:'MatIyas MOSHE'
+            ,title:'ASHENAFI TEGESTU'
         } ,
         {
             image:w,
             pargraph:"The reliability and performance of our network have noticeably improved since partnering with Brilliant Hi Tec. Thank you for your outstanding service and professionalism. "
-            ,title:'MatIyas MOSHE'
+            ,title:'DAGEMAWE YOHANNES'
         } ,
         {
             image:w,
             pargraph:"We appreciate your dedication to keeping our network running smoothly and efficiently, allowing us to focus on our core objectives without interruptions."
-            ,title:'MatIyas MOSHE'
+            ,title:'MERED BEKELE'
         } 
     ])
     const [cards] = useState([
@@ -74,27 +81,27 @@ import ScrollTrigger from 'react-scroll-trigger';
             text:"We enhance traditional classrooms with technology to improve teaching and learning. Our smart classrooms are equipped with a variety of essential technology tools."
         },
         {
-            image: server,
+            image: DataCenter,
             title:"Data Center Setup ",
             text:"We understand the significance of data center technology for organizations, as it serves as a crucial investment housing essential network systems vital for daily operations. Our specialized expertise lies in the maintenance of data center servers and storage devices."
         },{
-            image: server,
+            image: NetMan,
             title:"Network Management ",
             text:"We specialize in network maintenance to prevent costly downtime and maximize business productivity. Trust us to handle all your preventive and corrective measures efficiently."
         },{
-            image: server,
+            image: CCTv,
             title:"CCTV SURVEILLANCE SYSTEM ",
             text:"With our Closed Circuit Television (CCTV) services, we offer a direct and closed system for video transmission. Our solution ensures that all components, including cameras, display monitors, and recording devices, are directly connected. This provides a secure and controlled environment, distinct from broadcast television."
         },{
-            image: server,
+            image: finger,
             title:"RFID & FINGER PRINT ACCESS CONTROL SYSTEM. ",
             text:"Our next-generation Smart Devices in Biometrics for Access Control offer enhanced building security, internal communications, and employee management. They provide these benefits at a significantly reduced total cost of ownership compared to previous biometric systems for physical access control."
         },{
-            image: server,
+            image: FireA,
             title:"FIRE ALARM SYSTEM ",
             text:"Ensuring safety and compliance with fire codes is a legal requirement, yet not everyone takes adequate precautions for personal safety. At our company, we are committed to addressing this concern by providing certified experts who can assess and enhance your fire-safety systems to meet required standards."
         },{
-            image: server,
+            image: Audio,
             title:"AUDIO / VISUAL ",
             text:"As an Audio Visual systems integrator and service provider, we specialize in delivering design, installation, and service solutions that enable enhanced communications for organizations."
         }
@@ -190,8 +197,9 @@ We look forward to the opportunity to serve you and contribute to your success.
                         <h3>Advanced technology</h3>
                     </div>
                     <div className='why_img3'>
-                        
-                        <h3>Seamless integration</h3>
+                        <div className='background3'>
+                           <h3 class="disableBlur">Seamless integration</h3>
+                        </div>
                     </div>
                     <div className='why_img4'>
                        
@@ -206,12 +214,12 @@ We look forward to the opportunity to serve you and contribute to your success.
             <div className='Our_client'>
                 <h1 style={{ fontSize: '4em' }}>Our Clients</h1>
                 <Link to='/' ><img src={download}/></Link>
-                <img src={log0}/>
-                <img src={log1}/>
-                <img src={log2}/>
-                <img src={log3}/>
-                <img src={log5}/>
-                <img src={log6}/>
+                <img src={log0} idth={200} height={200}/>
+                <img src={log1} idth={200} height={200}/>
+                <img src={log2} idth={200} height={200}/>
+                <img src={log3} idth={200} height={200}/>
+                <img src={log5} idth={200} height={200}/>
+                <img src={log6} idth={200} height={200}/>
                 <img src={log7} width={200} height={200}/>
                 <img src={log8} width={200} height={200}/>
             </div>
@@ -220,7 +228,7 @@ We look forward to the opportunity to serve you and contribute to your success.
                 <div className='Card_listes2'>
                     {cards2.map((card, i)=> (
                         <div key={i} className='card2'>
-                            <img src={card.image} width={100}/>
+                            <img src={card.image} width={70}/>
                             <p>
                                 {card.pargraph}
                             </p>

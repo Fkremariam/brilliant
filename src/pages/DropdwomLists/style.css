@@ -1,3 +1,6 @@
+  p{
+    font-family: "Arial", sans-serif;
+  }
   .forAllService {
       display: flex;
       align-items: center;
@@ -8,6 +11,9 @@
       margin-right: 20px;
       font-size: 30px;
       /* Adjust as needed */
+    font-family: "Arial", sans-serif;
+    text-align: left;
+    font-size: 20px;
   }
 
   .sideImage {

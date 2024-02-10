@@ -32,21 +32,20 @@ const SvgAnimation = () => {
       </div>
       </div>
     </div>
-
-    <div className='svg-animation-container'> 
-    <div className="svg-container">
+<div className='svg-animation-container'> 
       <div className={`content_product ${showContent ? 'fade-in' : 'fade-out'}`}>
         <h2>Network Security</h2>
-        <p> 
-Products: Firewalls, Secure Endpoint, Secure Email, ISE, Anti-Virus, WAF</p>
+        <p> Products: Firewalls, Secure Endpoint, Secure Email, ISE, Anti-Virus, WAF</p>
+
         <span>Vendor:</span><p> Cisco, Fortinet, , Kaspersky, Baraccuda</p>
       </div>
-      
+      <div className="svg-container">
         <div className="svg-item">
-          <img src={product2}/>
+          <img src={Enterprise_Networking}/>
         </div>
       </div>
       </div>
+    
        <div className='svg-animation-container'> 
     <div className="svg-container">
         <div className="svg-item">

@@ -1,4 +1,6 @@
-
+body {
+    overflow-x: hidden;
+}
 .logo_and-aboutUs{
     display: flex;
     justify-content: space-between; 
@@ -118,7 +120,7 @@ section {
         
         top: 50%;
         left: 50%;
-        
+        font-size: 1.5rem;
         z-index: 2;
         width: 80%;
         padding: 20px;
@@ -135,16 +137,13 @@ section {
     background-image: url('../asset/reliability.jpg');
     
 }
-.why_img1 img{
-    padding-left: 2rem;
-    
-}
+
 .why_img2{
 font-weight: bold;
 
     top: 50%;
     left: 50%;
-
+font-size: 1.5rem;
     z-index: 2;
     width: 80%;
     padding: 20px;
@@ -160,15 +159,13 @@ font-weight: bold;
     background-image: url('../asset/adva.jpg');
 }
 
-.why_img2 img {
-    padding-left: 2rem;
-}
-.why_img3{
+
+.why_img3 {
 font-weight: bold;
     
     top: 50%;
     left: 50%;
-
+font-size: 1.5rem;
     z-index: 2;
     width: 80%;
     padding: 20px;
@@ -179,20 +176,23 @@ font-weight: bold;
     background-size: cover;
     background-position: center;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
+    
+    
     background-image: url('../asset/sm.jpg');
+}
+.disableBlur {
+filter: blur(0);
+        
+        
+        
+}
 
-}
-.why_img3 img {
-    padding-left: 2rem;
-}
 .why_img4 {
     font-weight: bold;
 
     top: 50%;
     left: 50%;
-
+font-size: 1.5rem;
     z-index: 2;
     width: 80%;
     padding: 20px;
@@ -217,7 +217,7 @@ font-weight: bold;
 
     top: 50%;
     left: 50%;
-
+font-size: 1.5rem;
     z-index: 2;
     width: 80%;
     padding: 20px;
@@ -281,6 +281,12 @@ transition: .3s;
         margin: 3rem;
         display: flex;
     }
+        .Card_listes2{
+            display: flex;
+            flex-direction: column;
+            width: 100rem;
+            padding-left: 60px;
+        }
         .Why_choose_us{
             display: flex;
             flex-direction: column;

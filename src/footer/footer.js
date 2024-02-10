@@ -14,7 +14,15 @@ import g from '../asset/g.png'
                     <div className='sb_footer-links-div'>
                         <img src={g} width={230}/>
                         <p className='discrepionFooter'>Brilliant Hi tech offers hardware installation and software development services. Our headquarters are located in Addis Ababa, Ethiopia. Established since 2018G.C by visionary Tewodros Meseret, Brilliant Hi tech Solutions is a registered Sole Proprietorship with the Ministry of Trade. We specialize in wholesale trade in communication, computer hardware, and peripheral equipment. Additionally, we hold an investment license from the City Administration of Addis Ababa Investment Commission for software development. </p>
-                      
+                      <div className='sb_footer-links-div'>
+                        {/* <h4>Soical Media</h4> */}
+                        <div className='socialmedia'>
+                            <p><img src={fb} width={60} alt=""/></p>
+                            <p><img src={tw} width={60} alt=""/></p>
+                            <p><img src={linkedin} width={60} alt=""/></p>
+                            <p><img src={insta} width={60} alt=""/></p>
+                        </div>
+                    </div>
                     </div>
                     <div className='sb_footer-links-div'>
                         <h4>Adress</h4>
@@ -70,15 +78,6 @@ import g from '../asset/g.png'
                         <p>&lt; RFID & Finger Print Access Control System </p>
                         <p>&lt; Fire Alarm System</p>
                         <p>&lt; Audio /Visual</p>
-                    </div>
-                    <div className='sb_footer-links-div'>
-                        <h4>For Business</h4>
-                        <div className='socialmedia'>
-                            <p><img src={fb} width={40} alt=""/></p>
-                            <p><img src={tw} width={40} alt=""/></p>
-                            <p><img src={linkedin} width={40} alt=""/></p>
-                            <p><img src={insta} width={40} alt=""/></p>
-                        </div>
                     </div>
                 </div>
             <hr></hr>

@@ -62,7 +62,7 @@ const ForContact = () => {
   };
 
   return (
-    <div><h1 style={{textAlign:'center',color:'white',backgroundColor:' rgb(67, 36, 150)',padding:'10rem'}}>Contact us</h1>
+    <div><h1 style={{textAlign:'center',color:'white',backgroundColor:' rgb(67, 36, 150)',padding:'10rem',padding:'10rem',margin:"0px",fontSize:"5rem"}}>Contact us</h1>
     <div style={containerStyle}>
       
       <div style={contentContainerStyle}>

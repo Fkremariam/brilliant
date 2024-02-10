@@ -1,8 +1,10 @@
 import React from 'react';
+import "./campnInfo.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faPhone, faEnvelope, faClock } from '@fortawesome/free-solid-svg-icons';
 
 const CompanyInfo = () => {
+
   const containerStyle = {
     backgroundColor: '#f8f9fa', // Gray background color
     padding: '20px',
@@ -31,7 +33,7 @@ const CompanyInfo = () => {
   };
 
   const addressStyle = {
-    margin: '8px 0',
+    // margin: '8px 0',
     color: '#333',
   };
 
@@ -43,6 +45,7 @@ const CompanyInfo = () => {
   const emailStyle = {
     color: '#28A745',
     textDecoration: 'none',
+
   };
 
   const workingHoursStyle = {
@@ -60,12 +63,16 @@ const CompanyInfo = () => {
 
   return (
     <div style={containerStyle}>
-      <div style={contentContainerStyle}>
+      <div  className='contentAAA' style={contentContainerStyle}>
         <div style={companyInfoStyle}>
           <h2>Company Information</h2>
           <p style={addressStyle}>
             <FontAwesomeIcon icon={faMapMarkerAlt} style={iconStyle} />
             Addis ababa, 22Mazoria, Hanan K Plaza, office #804
+          </p>
+          <p style={workingHoursStyle}>
+            <FontAwesomeIcon icon={faClock} style={iconStyle} />
+            Working Hours: Mon-Fri 9:00 AM - 5:00 PM
           </p>
           <p style={phoneNumberStyle}>
             <FontAwesomeIcon icon={faPhone} style={iconStyle} />
@@ -75,10 +82,7 @@ const CompanyInfo = () => {
             <FontAwesomeIcon icon={faEnvelope} style={iconStyle} />
             Email: <a href="mailto:info@example.com" style={emailStyle}>info@example.com</a>
           </p>
-          <p style={workingHoursStyle}>
-            <FontAwesomeIcon icon={faClock} style={iconStyle} />
-            Working Hours: Mon-Fri 9:00 AM - 5:00 PM
-          </p>
+          
         </div>
         <div style={mapContainerStyle}>
           <div style={{ width: '100%' }}>
