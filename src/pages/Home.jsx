@@ -118,9 +118,9 @@ import ScrollTrigger from 'react-scroll-trigger';
             
             <div className='logo-aside-aboutUs'><img src={ddac} width={400} alt=''/></div>
             <div className='home-aboutUs'>
-                <h2>About us</h2>
-                <h1>Brilliant Hi Tec Solution</h1>
-                    <p>Brilliant Hi Tec is a prominent networking company established with the vision of delivering high-quality professional networking solutions to businesses of all sizes. Our team of highly skilled professionals is dedicated to providing robust networking systems that empower organizations to thrive in the digital age. 
+                <h2 style={{fontSize:"3rem"}}>About us</h2>
+                <h1>Brilliant Hi Tech Solution</h1>
+                    <p>Brilliant Hi Tech Solution is a prominent networking company established with the vision of delivering high-quality professional networking solutions to businesses of all sizes. Our team of highly skilled professionals is dedicated to providing robust networking systems that empower organizations to thrive in the digital age. 
                         currently, brilliant hi tec has established strong partner ship with key stakeholders in the industry. We have demonstrated a commitment to clean execution in optimizing network infrastructure, enabling clients to enhance their digital connectivity.
  
 We look forward to the opportunity to serve you and contribute to your success.
@@ -131,7 +131,7 @@ We look forward to the opportunity to serve you and contribute to your success.
         <section>
             
             <div className="Containe_WhatWeDo">
-                <h1>What we <span>Do</span></h1>
+                <h1>What we <span style={{color:"rgb(67, 36, 150)"}}>Do</span></h1>
                 <div className='Card_listes'>
                     {cards.map((card, i)=> (
                         <div key={i} className='card'>

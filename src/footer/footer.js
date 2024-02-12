@@ -13,7 +13,7 @@ import g from '../asset/g.png'
                 <div className='sb_footer-links'>
                     <div className='sb_footer-links-div'>
                         <img src={g} width={230}/>
-                        <p className='discrepionFooter'>Brilliant Hi tech offers hardware installation and software development services. Our headquarters are located in Addis Ababa, Ethiopia. Established since 2018G.C by visionary Tewodros Meseret, Brilliant Hi tech Solutions is a registered Sole Proprietorship with the Ministry of Trade. We specialize in wholesale trade in communication, computer hardware, and peripheral equipment. Additionally, we hold an investment license from the City Administration of Addis Ababa Investment Commission for software development. </p>
+                        <p className='discrepionFooter'>Brilliant Hi Tech Solution offers hardware installation and software development services. Our headquarters are located in Addis Ababa, Ethiopia. Established since 2018G.C by visionary Tewodros Meseret, Brilliant Hi tech Solutions is a registered Sole Proprietorship with the Ministry of Trade. We specialize in wholesale trade in communication, computer hardware, and peripheral equipment. Additionally, we hold an investment license from the City Administration of Addis Ababa Investment Commission for software development. </p>
                       <div className='sb_footer-links-div'>
                         {/* <h4>Soical Media</h4> */}
                         <div className='socialmedia'>
@@ -32,39 +32,46 @@ import g from '../asset/g.png'
                     </div>
                     <div className='sb_footer-links-div'>
                         <h4>LINKS</h4>
-                        <a href='/employer'>
-                            <p>&lt;	HOME 
+                        <a href='/'>
+                            <p>&lt;	HOME </p>
+                             </a>
+                        <a href='/products'>
                                 <p>
                         &lt;	PRODUCT</p>
-                        </p>
                         </a>
-                        <a href='/healthplan'>
+                    
+                       
+                        <a href='/services'>
                             <p>&lt;	SERVICE AND SOLUTION 
                         </p>
                         </a>
-                        <a href='/individual'>
+                        <a href='#'>
                             <p>
                         &lt;	PARTNER 
                         </p>
+                         </a>
+                        <a href='/aboutus'>
                         <p>
                         &lt;	ABOUT US
                         </p>
+                        </a>
+                        <a href='/contactus'>
                         <p>&lt;	CONTACT US</p>
                         </a>
                     </div>
                     <div className='sb_footer-links-div'>
                         <h4>SERVICE AND SOLUTION </h4>
-                        <a href='/employer'>
+                        <a href='/'>
                             <p>&lt;	Network installation 
                                 <p>
                         &lt; Network support</p>
                         </p>
                         </a>
-                        <a href='/healthplan'>
+                        <a href='/networkSupport'>
                             <p>&lt;	Security solutions 
                         </p>
                         </a>
-                        <a href='/individual'>
+                        <a href='/CloudServices'>
                             <p>
                         &lt; Cloud services 
                         </p>
